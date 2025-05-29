@@ -3,6 +3,19 @@ const searchContainer = document.querySelector('.search-container');
 const allflex = document.querySelector('.allflex');
 const header = document.querySelector('header');
 
+
+    
+  // ********************/* loader ******************* */
+  window.addEventListener('load', function() {
+  const preloader = document.getElementById('preloader');
+  if (preloader) {
+    preloader.style.display = 'none';
+  }
+});
+
+// ************************
+
+
 var animation = lottie.loadAnimation({
   container: document.getElementById('SmediaAnimations'),
   renderer: 'svg',
